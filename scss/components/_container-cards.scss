@@ -1,0 +1,177 @@
+section.container-cards {
+  margin: 4em 0 0 0;
+  padding: 0 0 5em 0;
+  // background-color: red;
+
+  .card-supervisor {
+    max-width: $width-all-cards;
+    margin: 0 auto 2em auto;
+    padding: 1.8em 1em 1em 1.5em;
+    text-align: left;
+    box-shadow: 0 1em 1em rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+    position: relative;
+    overflow: hidden;
+    background-color: $White;
+
+    &::before {
+      content: "";
+      width: 100%;
+      height: 0.29em;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: $Cyan;
+    }
+
+    .title {
+      h5 {
+        font-size: $cards-heading;
+        color: $VeryDarkBlue;
+      }
+
+      p {
+        font-size: $cards-paragraph;
+        font-weight: $regular;
+        margin: 0.4rem 0 0 0;
+        letter-spacing: 0.01rem;
+        line-height: $cards-paragraph-line-height;
+        color: $GrayishBlue;
+      }
+    }
+
+    .img-supervisor {
+      margin: 1.5em 0 0 0;
+      text-align: right;
+    }
+  }
+
+  .card-team-builder {
+    max-width: $width-all-cards;
+    margin: 2em auto;
+    padding: 1.8em 1em 1em 1.5em;
+    text-align: left;
+    box-shadow: 0 1em 1em rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+    position: relative;
+    overflow: hidden;
+    background-color: $White;
+
+    &::before {
+      content: "";
+      width: 100%;
+      height: 0.29em;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: $Red;
+    }
+
+    .title {
+      h5 {
+        font-size: $cards-heading;
+        color: $VeryDarkBlue;
+      }
+
+      p {
+        font-size: $cards-paragraph;
+        font-weight: $regular;
+        margin: 0.4rem 0 0 0;
+        letter-spacing: 0.01rem;
+        line-height: $cards-paragraph-line-height;
+        color: $GrayishBlue;
+      }
+    }
+
+    .img-team-builder {
+      margin: 1.5em 0 0 0;
+      text-align: right;
+    }
+  }
+
+  .card-karma {
+    max-width: $width-all-cards;
+    margin: 2em auto;
+    padding: 1.8em 1em 1em 1.5em;
+    text-align: left;
+    box-shadow: 0 1em 1em rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+    position: relative;
+    overflow: hidden;
+    background-color: $White;
+
+    &::before {
+      content: "";
+      width: 100%;
+      height: 0.29em;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: $Orange;
+    }
+
+    .title {
+      h5 {
+        font-size: $cards-heading;
+        color: $VeryDarkBlue;
+      }
+
+      p {
+        font-size: $cards-paragraph;
+        font-weight: $regular;
+        margin: 0.4rem 0 0 0;
+        letter-spacing: 0.01rem;
+        line-height: $cards-paragraph-line-height;
+        color: $GrayishBlue;
+      }
+    }
+
+    .img-karma {
+      margin: 1.5em 0 0 0;
+      text-align: right;
+    }
+  }
+
+  .card-calculator {
+    max-width: $width-all-cards;
+    margin: 2em auto;
+    padding: 1.8em 1em 1em 1.5em;
+    text-align: left;
+    box-shadow: 0 1em 1em rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+    position: relative;
+    overflow: hidden;
+    background-color: $White;
+
+    &::before {
+      content: "";
+      width: 100%;
+      height: 0.29em;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: $Blue;
+    }
+
+    .title {
+      h5 {
+        font-size: $cards-heading;
+        color: $VeryDarkBlue;
+      }
+
+      p {
+        font-size: $cards-paragraph;
+        font-weight: $regular;
+        margin: 0.4rem 0 0 0;
+        letter-spacing: 0.01rem;
+        line-height: $cards-paragraph-line-height;
+        color: $GrayishBlue;
+      }
+    }
+
+    .img-calculator {
+      margin: 1.5em 0 0 0;
+      text-align: right;
+    }
+  }
+}

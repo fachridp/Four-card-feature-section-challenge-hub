@@ -1,0 +1,269 @@
+@media only screen and (min-width: $first-break-points) {
+  main {
+    .big-container {
+      width: 340px;
+
+      section.main-heading {
+        article {
+          .desc {
+            p {
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+
+      section.container-cards {
+        margin: 4em 0 0 0;
+
+        .card-supervisor {
+          max-width: 320px;
+          padding: 1.9em 1em 1em 2em;
+
+          .title {
+            h5 {
+              font-size: 1.25rem;
+            }
+
+            p {
+              font-size: 0.85rem;
+              font-weight: 400;
+              margin: 0.4rem 0 0 0;
+              letter-spacing: 0.01rem;
+              line-height: 2em;
+              color: $GrayishBlue;
+            }
+          }
+        }
+
+        .card-team-builder {
+          max-width: 320px;
+          padding: 1.9em 1em 1em 2em;
+
+          .title {
+            h5 {
+              font-size: 1.25rem;
+            }
+
+            p {
+              font-size: 0.85rem;
+              font-weight: 400;
+              margin: 0.4rem 0 0 0;
+              letter-spacing: 0.01rem;
+              line-height: 2em;
+              color: $GrayishBlue;
+            }
+          }
+        }
+
+        .card-karma {
+          max-width: 320px;
+          padding: 1.9em 1em 1em 2em;
+
+          .title {
+            h5 {
+              font-size: 1.25rem;
+            }
+
+            p {
+              font-size: 0.85rem;
+              font-weight: 400;
+              margin: 0.4rem 0 0 0;
+              letter-spacing: 0.01rem;
+              line-height: 2em;
+              color: $GrayishBlue;
+            }
+          }
+        }
+
+        .card-calculator {
+          max-width: 320px;
+          padding: 1.9em 1em 1em 2em;
+
+          .title {
+            h5 {
+              font-size: 1.25rem;
+            }
+
+            p {
+              font-size: 0.85rem;
+              font-weight: 400;
+              margin: 0.4rem 0 0 0;
+              letter-spacing: 0.01rem;
+              line-height: 2em;
+              color: $GrayishBlue;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: $second-break-points) {
+  main {
+    .big-container {
+      width: 950px;
+
+      section.main-heading {
+        article {
+          .title {
+            h2 {
+              font-size: 2.4rem;
+            }
+
+            h1 {
+              font-size: 2.4rem;
+            }
+          }
+
+          .desc {
+            padding: 0 0.3rem;
+
+            p {
+              width: 600px;
+              margin: 0 auto;
+              font-size: 1.3rem;
+            }
+          }
+        }
+      }
+
+      section.container-cards {
+        .card-supervisor {
+          max-width: 400px;
+          padding: 2.8em 2em 2em 2.5em;
+
+          &::before {
+            height: 0.4em;
+          }
+
+          .title {
+            padding: 0 5em 0 0;
+
+            h5 {
+              font-size: 1.4rem;
+            }
+
+            p {
+              font-size: 0.9rem;
+            }
+          }
+
+          .img-supervisor {
+            margin: 2em 0 0 0;
+          }
+        }
+
+        .card-team-builder {
+          max-width: 400px;
+          padding: 2.8em 2em 2em 2.5em;
+
+          &::before {
+            height: 0.4em;
+          }
+
+          .title {
+            padding: 0 3em 0 0;
+
+            h5 {
+              font-size: 1.4rem;
+            }
+
+            p {
+              font-size: 0.9rem;
+            }
+          }
+
+          .img-team-builder {
+            margin: 2em 0 0 0;
+          }
+        }
+
+        .card-karma {
+          max-width: 400px;
+          padding: 2.8em 2em 2em 2.5em;
+
+          &::before {
+            height: 0.4em;
+          }
+
+          .title {
+            padding: 0 2em 0 0;
+
+            h5 {
+              font-size: 1.4rem;
+            }
+
+            p {
+              font-size: 0.9rem;
+            }
+          }
+
+          .img-karma {
+            margin: 2em 0 0 0;
+          }
+        }
+
+        .card-calculator {
+          max-width: 400px;
+          padding: 2.8em 2em 2em 2.5em;
+
+          &::before {
+            height: 0.4em;
+          }
+
+          .title {
+            padding: 0 3em 0 0;
+
+            h5 {
+              font-size: 1.4rem;
+            }
+
+            p {
+              font-size: 0.9rem;
+            }
+          }
+
+          .img-calculator {
+            margin: 2em 0 0 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: $third-break-points) {
+  main {
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;
+
+    .big-container {
+      section.container-cards {
+        .card-supervisor {
+          max-width: 380px;
+          position: absolute;
+          top: 450px;
+          left: 40px;
+
+          .title {
+            padding: 0 1em 0 0;
+          }
+        }
+
+        .card-calculator {
+          max-width: 380px;
+          position: absolute;
+          top: 415px;
+          right: 40px;
+
+          .title {
+            padding: 0 1em 0 0;
+          }
+        }
+      }
+    }
+  }
+}
